@@ -1,0 +1,12 @@
+name: PlayerRankManager
+version: '${project.version}'
+main: org.test.playerrankmanager.PlayerRankManager
+api-version: '1.20'
+load: STARTUP
+commands:
+  setxp:
+  addxp:
+  subxp:
+  getxp:
+  promote:
+  reloadrank:

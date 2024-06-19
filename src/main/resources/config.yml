@@ -1,0 +1,13 @@
+ranks:
+  - name: "Novice"
+    prefix: "&7[Novice] "
+    xp: 0
+  - name: "Apprentice"
+    prefix: "&a[Apprentice] "
+    xp: 1000
+  - name: "Adept"
+    prefix: "&b[Adept] "
+    xp: 5000
+  - name: "Master"
+    prefix: "&6[Master] "
+    xp: 10000

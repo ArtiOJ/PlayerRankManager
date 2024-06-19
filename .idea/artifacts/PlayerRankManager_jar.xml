@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PlayerRankManager:jar">
+    <output-path>$PROJECT_DIR$/../../../../Other/Paper Servers/The Limaverse/HUNGER_GAMES/plugins</output-path>
+    <root id="archive" name="PlayerRankManager.jar">
+      <element id="module-output" name="PlayerRankManager" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/4.5.0/mongodb-driver-sync-4.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/4.5.0/mongodb-driver-core-4.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/4.5.0/bson-4.5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
