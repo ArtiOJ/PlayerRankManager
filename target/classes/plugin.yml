@@ -10,3 +10,4 @@ commands:
   getxp:
   promote:
   reloadrank:
+  removerank:

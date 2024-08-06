@@ -61,6 +61,26 @@ public class MongoServer {
             System.out.println("Document with UUID " + uuidValue + " not found.");
         }
     }
+
+    // Function to add a player override by UUID
+    public void addPlayerOverrideByUuid(String uuidValue, String rankName) {
+        collection.updateOne(Filters.eq("uuid", uuidValue), new Document("$set", new Document("override", rankName)));
+    }
+
+    // Function to get the player override by UUID
+    public String getPlayerOverrideByUuid(String uuidValue) {
+        Document document = fetchDocumentByUuid(uuidValue);
+        if (document != null) {
+            return document.getString("override");
+        }
+        return null;
+    }
+
+    // Function to remove the player override by UUID
+    public void removePlayerOverrideByUuid(String uuidValue) {
+        collection.updateOne(Filters.eq("uuid", uuidValue), new Document("$unset", new Document("override", "")));
+    }
 }
+
 
 

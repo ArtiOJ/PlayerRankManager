@@ -11,3 +11,15 @@ ranks:
   - name: "Master"
     prefix: "&6[Master] "
     xp: 10000
+
+overrides:
+  - name: "Owner"
+    prefix: "&cOWNER "
+  - name: "Admin"
+    prefix: "&c[Admin] "
+  - name: "Builder"
+    prefix: "&1[Builder] "
+  - name : "British"
+    prefix : "&3[British] "
+  - name: "AFK"
+    prefix: "&7 AFK "

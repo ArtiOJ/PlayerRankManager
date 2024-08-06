@@ -46,7 +46,6 @@ public class ReloadRankCommand implements CommandExecutor {
             }
         }
 
-        // Fetch the player's current XP
         rankManager.reloadRank(player);
 
         return true;

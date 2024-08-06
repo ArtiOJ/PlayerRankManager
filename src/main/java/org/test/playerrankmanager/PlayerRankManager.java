@@ -11,7 +11,7 @@ public final class PlayerRankManager extends JavaPlugin implements Listener {
 
     private MongoServer database;
     private PlayerRankPrefix rankManager;
-    private String connection_string = "<Private_connection_string>";
+    private String connection_string = "<private_connection_string>";
     private String dbname = "The_Limaverse_Data";
     private String collectionName = "Player_Data";
 
@@ -25,6 +25,8 @@ public final class PlayerRankManager extends JavaPlugin implements Listener {
         new AddXpCommand(this, database);
         new SubXpCommand(this, database);
         new GetXpCommand(this, database);
+        new PromoteCommand(this, database);
+        new RemoveOverrideCommand(this, database);
         new ReloadRankCommand(this, rankManager);
         getServer().getPluginManager().registerEvents(this, this);
     }
@@ -42,6 +44,7 @@ public final class PlayerRankManager extends JavaPlugin implements Listener {
         if (database.fetchDocumentByUuid(uuid) == null) {
             database.addDocument(uuid, 0, name);
         }
+        rankManager.reloadRank(event.getPlayer());
     }
 }
 
