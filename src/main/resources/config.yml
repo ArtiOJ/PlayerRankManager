@@ -14,12 +14,12 @@ ranks:
 
 overrides:
   - name: "Owner"
-    prefix: "&cOWNER "
+    prefix: "&cOWNER&f "
   - name: "Admin"
-    prefix: "&c[Admin] "
+    prefix: "&c[Admin]&f "
   - name: "Builder"
-    prefix: "&1[Builder] "
+    prefix: "&1[Builder]&f "
   - name : "British"
-    prefix : "&3[British] "
+    prefix : "&3[British]&f "
   - name: "AFK"
-    prefix: "&7 AFK "
+    prefix: "&7 AFK&f "

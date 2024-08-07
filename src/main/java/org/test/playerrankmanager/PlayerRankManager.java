@@ -11,7 +11,7 @@ public final class PlayerRankManager extends JavaPlugin implements Listener {
 
     private MongoServer database;
     private PlayerRankPrefix rankManager;
-    private String connection_string = "<private_connection_string>";
+    private String connection_string = "mongodb+srv://limited_user:XfWHcA2orAFYkQwe@limaversecluster.kapc8c6.mongodb.net/?retryWrites=true&w=majority&appName=LimaverseCluster";
     private String dbname = "The_Limaverse_Data";
     private String collectionName = "Player_Data";
 
