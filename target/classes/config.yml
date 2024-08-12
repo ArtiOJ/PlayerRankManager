@@ -21,5 +21,7 @@ overrides:
     prefix: "&1[Builder] "
   - name : "British"
     prefix : "&3[British] "
+  - name : "Playtester"
+    prefix: "&e[Playtester] "
   - name: "AFK"
     prefix: "&7 AFK "
