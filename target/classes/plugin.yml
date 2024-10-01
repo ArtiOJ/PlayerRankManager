@@ -3,11 +3,19 @@ version: '1.0-SNAPSHOT'
 main: org.test.playerrankmanager.PlayerRankManager
 api-version: '1.20'
 load: STARTUP
+authors: [Artifabrian]
 commands:
   setxp:
+    permission: prm.admin
   addxp:
+    permission: prm.admin
   subxp:
+    permission: prm.admin
   getxp:
+    permission: prm.admin
   promote:
+    permission: prm.admin
   reloadrank:
+    permission: prm.admin
   removerank:
+    permission: prm.admin
